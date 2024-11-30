@@ -1,0 +1,227 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Gaming Laptop X10",
+      "product_image": "https://i.imghippo.com/files/nK4820Sy.jpg",
+      "category": "Computers",
+      "price": 1200,
+      "description": "High-performance gaming laptop with advanced cooling.",
+      "specification": [
+        "Processor: Intel Core i9",
+        "Graphics: NVIDIA RTX 3070",
+        "RAM: 16GB",
+        "Storage: 1TB SSD"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "All-in-One Desktop PC",
+      "product_image": "https://i.imghippo.com/files/YBQ6522Lk.jpg",
+      "category": "Computers",
+      "price": 850,
+      "description": "Compact and powerful desktop PC with a 24-inch display.",
+      "specification": [
+        "Processor: AMD Ryzen 5",
+        "RAM: 8GB",
+        "Storage: 512GB SSD",
+        "Display: 24-inch Full HD"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 3,
+      "product_title": "Ultra-Slim Laptop",
+      "product_image": "https://i.imghippo.com/files/tfxp4009A.jpg",
+      "category": "Computers",
+      "price": 999,
+      "description": "Lightweight laptop designed for productivity on the go.",
+      "specification": [
+        "Processor: Intel Core i7",
+        "Display: 13-inch Retina",
+        "Battery Life: 15 hours",
+        "Weight: 2.5 lbs"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Business Laptop Pro",
+      "product_image": "https://i.imghippo.com/files/JNTj8821UM.jpeg",
+      "category": "Computers",
+      "price": 1100,
+      "description": "Professional laptop with a sleek design and powerful specs.",
+      "specification": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Display: 15.6-inch FHD"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 5,
+      "product_title": "Convertible 2-in-1 Laptop",
+      "product_image": "https://i.imghippo.com/files/dfMI6205jo.jpg",
+      "category": "Computers",
+      "price": 950,
+      "description": "Versatile 2-in-1 laptop with touch screen functionality.",
+      "specification": [
+        "Processor: AMD Ryzen 7",
+        "Display: 14-inch FHD Touch",
+        "RAM: 8GB",
+        "Storage: 256GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 6,
+      "product_title": "High-End Desktop Tower",
+      "product_image": "https://i.imghippo.com/files/yYY2302GbU.jpeg",
+      "category": "Computers",
+      "price": 1400,
+      "description": "Custom-built desktop tower for gaming and productivity.",
+      "specification": [
+        "Processor: Intel Core i9",
+        "Graphics: NVIDIA RTX 3080",
+        "RAM: 32GB",
+        "Storage: 1TB SSD + 2TB HDD"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 7,
+      "product_title": "Samsung Galaxy Z",
+      "product_image": "https://i.imghippo.com/files/VlW8460ziY.jpg",
+      "category": "Phones",
+      "price": 999,
+      "description": "Foldable smartphone with cutting-edge technology.",
+      "specification": [
+        "Processor: Octa-Core 3.0GHz",
+        "Display: 7.6-inch AMOLED",
+        "Camera: 108MP",
+        "Battery: 5000mAh"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 8,
+      "product_title": "iPhone 15 Pro",
+      "product_image": "https://i.imghippo.com/files/rApb8586FU.jpg",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Premium smartphone with titanium body and A17 chip.",
+      "specification": [
+        "Processor: Apple A17 Bionic",
+        "Camera: 48MP ProRAW",
+        "Display: 6.1-inch Super Retina XDR",
+        "Battery: All-day battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 9,
+      "product_title": "Smart Watch Ultra X",
+      "product_image": "https://i.imghippo.com/files/lMNS8237KqI.jpg",
+      "category": "Smart Watches",
+      "price": 499,
+      "description": "Rugged smart watch with advanced health tracking.",
+      "specification": [
+        "Display: 1.9-inch Retina",
+        "GPS: Dual Frequency",
+        "Battery Life: 36 hours",
+        "Water Resistance: Up to 100m"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 10,
+      "product_title": "Fitness Tracker Pro",
+      "product_image": "https://i.imghippo.com/files/YYSH5686cIo.jpg",
+      "category": "Smart Watches",
+      "price": 199,
+      "description": "Lightweight fitness tracker with heart rate monitoring.",
+      "specification": [
+        "Display: OLED",
+        "Battery Life: 10 days",
+        "Water Resistance: 50m",
+        "Connectivity: Bluetooth 5.0"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+        "product_id": 11,
+        "product_title": "Fast Charge Wall Adapter",
+        "product_image": "https://i.imghippo.com/files/XAcX1889FAg.jpg",
+        "category": "Chargers",
+        "price": 59,
+        "description": "High-speed wall charger with USB-C and Power Delivery.",
+        "specification": [
+          "Output: 65W",
+          "Ports: USB-C, USB-A",
+          "Compatibility: Universal",
+          "Size: Compact"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 12,
+        "product_title": "Wireless Charging Pad",
+        "product_image": "https://i.imghippo.com/files/ySo1403XqA.jpeg",
+        "category": "Chargers",
+        "price": 79,
+        "description": "Slim and stylish wireless charger with fast charging.",
+        "specification": [
+          "Output: 15W",
+          "Material: Aluminum",
+          "Compatibility: Qi-enabled devices",
+          "LED Indicator: Yes"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 13,
+        "product_title": "10,000mAh Power Bank",
+        "product_image": "https://i.imghippo.com/files/LJk6142JUg.jpg",
+        "category": "Power Banks",
+        "price": 89,
+        "description": "Compact power bank with dual fast-charging ports.",
+        "specification": [
+          "Capacity: 10,000mAh",
+          "Ports: USB-C, USB-A",
+          "Charging Speed: 18W",
+          "Weight: 200g"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 14,
+        "product_title": "20,000mAh Solar Power Bank",
+        "product_image": "https://i.imghippo.com/files/dxcD7709wYk.jpg",
+        "category": "Power Banks",
+        "price": 119,
+        "description": "Solar power bank with high capacity and waterproof design.",
+        "specification": [
+          "Capacity: 20,000mAh",
+          "Solar Panel: Yes",
+          "Charging Speed: 15W",
+          "Water Resistance: IP67"
+        ],
+        "availability": true,
+        "rating": 4.8
+      }
+  ]
+  

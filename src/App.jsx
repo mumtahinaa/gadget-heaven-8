@@ -10,7 +10,6 @@ function App() {
     <>
      
        <h1 > </h1>
-       <button className=' btn btn-primary'>helooo</button>
     </>
   )
 }
