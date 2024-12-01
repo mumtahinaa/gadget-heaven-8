@@ -5,14 +5,14 @@ GadgetHaven is a sleek e-commerce platform designed for gadget enthusiasts. It a
 ---
 
 ## Live Website
-[**Visit GadgetHaven**](#)  
-*(Replace `#` with the deployed website link)*
+[**Visit GadgetHaven**](https://gadget-heaven-14.netlify.app/)  
+
 
 ---
 
 ## Requirement Document
-[**View Requirement Document**](#)  
-*(Replace `#` with the link to the detailed requirements or shared document)*
+[**View Requirement Document**](https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-mumtahinaa)  
+
 
 ---
 
