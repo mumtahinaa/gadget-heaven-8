@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Dynamic from "../components/Dynamic";
+import DocumentTitle from "../utility/documentTitle";
 
 
 
 const Dashboard = () => {
-   
+    DocumentTitle("Dashboard | Gadget Heaven")
     
     return (
         <div>

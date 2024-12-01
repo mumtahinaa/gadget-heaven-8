@@ -2,9 +2,11 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import Screen from "../components/Screen";
 import SideBars from "../components/SideBars";
+import DocumentTitle from "../utility/documentTitle";
 
 
 const Home = () => {
+    DocumentTitle("Gadget | Gadget Heaven")
     const categories = useLoaderData();
     console.log(categories);
     return (

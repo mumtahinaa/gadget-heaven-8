@@ -4,15 +4,18 @@ import { useEffect, useState } from "react";
 import { MdFavoriteBorder } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import ReactStars from "react-rating-stars-component";
-import { addItem, addWish } from "../utility/addtocart";
+import { addItem, addWish, getWish } from "../utility/addtocart";
+import DocumentTitle from "../utility/documentTitle";
 
 
 
 
 const CardDetails = () => {
+  DocumentTitle("Gadget Details | Gadget Heaven")
   const data = useLoaderData(); 
   const { product_id } = useParams(); 
   const [gadget, setGadget] = useState(null); 
+  const [isWish,setIsWish] = useState(false);
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
@@ -23,6 +26,8 @@ const CardDetails = () => {
 
   const handleWishList =(id)=>{
     addWish(id);
+    setIsWish(true);
+    
   }
    
 
@@ -30,7 +35,16 @@ const CardDetails = () => {
   useEffect(() => {
     const selectedItem = data.find((product) => product.product_id === parseInt(product_id));
     setGadget(selectedItem); 
-  }, [data, product_id]);
+    const favorate = getWish()
+   console.log(favorate) 
+   const isExist = favorate.find(item =>parseInt(item) == selectedItem.product_id)
+
+   if(isExist){
+  setIsWish(true)
+   }
+   
+   
+}, [data, product_id]);
 
   
   if (!gadget) {
@@ -69,8 +83,8 @@ const CardDetails = () => {
 
 <span className="text-sm font-medium bg-gray-100 px-4 py-2 rounded-2xl">{gadget.rating}</span></div>
           <div className="card-actions justify-start gap-4">
-            <button onClick={()=>handleCart(product_id)} className="btn bg-[#9538E2] text-white font-semibold text-sm py-1 px-4 rounded-3xl">Add To Card <RiShoppingCart2Line  size={20}></RiShoppingCart2Line></button>
-            <a onClick={() => handleWishList(product_id)} className="bg-white rounded-full w-[40px] h-[40px] flex items-center justify-center border  border-gray-200 cursor-pointer"><MdFavoriteBorder size={20}/> </a>
+            <button  onClick={()=>handleCart(product_id)} className="btn bg-[#9538E2] text-white font-semibold text-sm py-1 px-4 rounded-3xl">Add To Card <RiShoppingCart2Line  size={20}></RiShoppingCart2Line></button>
+            <button disabled={isWish} onClick={() => handleWishList(product_id)} className="btn-ghost bg-white rounded-full w-[40px] h-[40px] flex items-center justify-center border  border-gray-200 cursor-pointer"><MdFavoriteBorder size={20}/> </button>
 
           </div>
         </div>

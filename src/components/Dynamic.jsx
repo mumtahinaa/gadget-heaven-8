@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Toggle from "./Toggle";
 
 
@@ -10,7 +10,7 @@ const Dynamic = ({heading,description}) => {
             <h2 className="text-white text-2xl font-bold">{heading}</h2>
             <p className="py-6 lg:max-w-2xl md:max-w-md max-w-xs mx-auto lg:text-sm md:text-sm text-xs text-white font-normal">{description}</p>
           {
-            pathname==='/dashboard/addCart' || pathname==='/dashboard/wishList'? <Toggle></Toggle>:''
+            pathname==='/dashboard/addCart' || pathname==='/dashboard/wishList' || pathname==='/dashboard'? <Toggle> </Toggle>:''
           }
         </div>
     );

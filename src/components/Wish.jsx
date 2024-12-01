@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { addItem, getWish } from "../utility/addtocart";
+import { addItem, getWish, removeItemWish } from "../utility/addtocart";
 import { PiXCircleThin } from "react-icons/pi";
 
 
@@ -16,6 +16,15 @@ const Wish = () => {
         const addToWish = allData.filter(card => listItemWishInt.includes(card.product_id))
         setListWish(addToWish);
     },[])
+
+    const handleRemoveWish=(id)=>{
+        removeItemWish(id)
+        const listItemWish = getWish();
+        const listItemWishInt = listItemWish.map(id=> parseInt(id)) 
+        const addToWish = allData.filter(card => listItemWishInt.includes(card.product_id))
+        setListWish(addToWish);
+        
+    }
     return (
         <div>
              <div className="w-10/12 mx-auto">
@@ -39,7 +48,7 @@ const Wish = () => {
 </div>
                     </div>
                     <div className=" mr-16 mb-20">
-                        <button className='text-red-500 '><PiXCircleThin size={36} />
+                        <button onClick={()=>handleRemoveWish(wish.product_id)} className='text-red-500 '><PiXCircleThin size={36} />
 
                         </button>
                     </div>
