@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('./src/assets/banner.jpg')",
-        btnBg:"url('./src/assets/Frame 6.png')" 
+        banner: "url('/dist/assets/banner.jpg')",
+        btnBg:"url('/dist/assets/Frame 6.png')" 
       },
     },
   },
