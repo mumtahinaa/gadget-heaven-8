@@ -32,7 +32,7 @@ const Navbar = () => {
        <ul
          tabIndex={0}
          className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow  bg-[#9538E2]">
-         <NavLink to='/' role='tab' className={({isActive}) => `text-sm font-normal text-white  ${isActive?'font-semibold underline':''}`}>Home</NavLink>
+         <NavLink to='/' role='tab' className={({isActive}) => `text-sm font-normal text-white  ${isActive?'font-semibold underline':' '}`}>Home</NavLink>
         
            <NavLink to='/statistics' role='tab' className={({isActive})=>`text-sm font-normal text-white hover:underline hover:font-semibold ${isActive?'font-semibold text-[#9538E2]':''}`}  >Statistics</NavLink>
          
@@ -83,22 +83,22 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow z-10 bg-white">
-        <NavLink to='/' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-white underline font-semibold ':''}`}>Home</NavLink>
+        <NavLink to='/' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-white underline font-semibold ':'text-[#9538E2]'}`}>Home</NavLink>
       
-      <NavLink to='/statistics' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2]  font-semibold ':''}`} >Statistics</NavLink>
+      <NavLink to='/statistics' role='tab' className={({isActive})=>`text-sm font-normal text-[#9538E2] hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2]  font-semibold ':'text-[#9538E2] '}`} >Statistics</NavLink>
     
-   <NavLink to='/dashboard' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2] font-semibold ':''}`} >Dashboard</NavLink>
+   <NavLink to='/dashboard' role='tab' className={({isActive})=>`text-sm font-normal text-[#9538E2]  hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2] font-semibold ':'text-[#9538E2] '}`} >Dashboard</NavLink>
       </ul>
     </div>
     <Link to='/' className="  text-xl font-bold text-[#0B0B0B]">Gadget Heaven</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-9 items-center">
-    <NavLink to='/' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-white underline font-semibold ':''}`}>Home</NavLink>
+    <NavLink to='/' role='tab' className={({isActive})=>`text-sm font-normal text-[#9538E2]  hover:text-[#9538E2] hover:font-semibold ${isActive?'text-white underline font-semibold ':'text-[#9538E2]'}`}>Home</NavLink>
       
-          <NavLink to='/statistics' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2]  font-semibold ':''}`} >Statistics</NavLink>
+          <NavLink to='/statistics' role='tab' className={({isActive})=>`text-sm font-normal text-[#9538E2]  hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2]  font-semibold ':'text-[#9538E2] '}`} >Statistics</NavLink>
         
-       <NavLink to='/dashboard' role='tab' className={({isActive})=>`text-sm font-normal text-gray-600 hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2] font-semibold ':''}`} >Dashboard</NavLink>
+       <NavLink to='/dashboard' role='tab' className={({isActive})=>`text-sm font-normal text-[#9538E2]  hover:text-[#9538E2] hover:font-semibold ${isActive?'text-[#9538E2] font-semibold ':'text-[#9538E2] '}`} >Dashboard</NavLink>
     </ul>
   </div>
   <div className="navbar-end gap-4">

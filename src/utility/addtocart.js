@@ -16,9 +16,9 @@ const getItem = () =>{
 const addItem =(id)=>{
     const storedItem = getItem();
     if(storedItem.includes(id)){
-        console.log(id,'already exist')
-        toast.error('This is an error!');
-
+       
+        
+        toast.success('Item already exist!');
     }
     else{
         storedItem.push(id)
