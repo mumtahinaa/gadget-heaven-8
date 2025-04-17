@@ -2,7 +2,7 @@
     {
       "product_id": 1,
       "product_title": "Gaming Laptop X10",
-      "product_image": "https://i.imghippo.com/files/nK4820Sy.jpg",
+      "product_image": "https://i.postimg.cc/Vv1fdW0X/x10.jpg",
       "category": "Computers",
       "price": 1200,
       "description": "High-performance gaming laptop with advanced cooling.",
@@ -18,7 +18,7 @@
     {
       "product_id": 2,
       "product_title": "All-in-One Desktop PC",
-      "product_image": "https://i.imghippo.com/files/YBQ6522Lk.jpg",
+      "product_image": "https://i.postimg.cc/2SJC4DBk/All-in-One.jpg",
       "category": "Computers",
       "price": 850,
       "description": "Compact and powerful desktop PC with a 24-inch display.",
@@ -34,7 +34,7 @@
     {
       "product_id": 3,
       "product_title": "Ultra-Slim Laptop",
-      "product_image": "https://i.imghippo.com/files/tfxp4009A.jpg",
+      "product_image": "https://i.postimg.cc/m2ybkpNS/Ultra-Slim-Laptop.jpg",
       "category": "Computers",
       "price": 999,
       "description": "Lightweight laptop designed for productivity on the go.",
@@ -50,7 +50,7 @@
     {
       "product_id": 4,
       "product_title": "Business Laptop Pro",
-      "product_image": "https://i.imghippo.com/files/JNTj8821UM.jpeg",
+      "product_image": "https://i.postimg.cc/HsDhRpMS/pro-laptops-products-600.png",
       "category": "Computers",
       "price": 1100,
       "description": "Professional laptop with a sleek design and powerful specs.",
@@ -66,7 +66,7 @@
     {
       "product_id": 5,
       "product_title": "Convertible 2-in-1 Laptop",
-      "product_image": "https://i.imghippo.com/files/dfMI6205jo.jpg",
+      "product_image": "https://i.postimg.cc/d19MSPDT/Convertible-2-in-1-Laptop.jpg",
       "category": "Computers",
       "price": 950,
       "description": "Versatile 2-in-1 laptop with touch screen functionality.",
@@ -82,7 +82,7 @@
     {
       "product_id": 6,
       "product_title": "High-End Desktop Tower",
-      "product_image": "https://i.imghippo.com/files/yYY2302GbU.jpeg",
+      "product_image": "https://i.postimg.cc/1zC7gmgB/High-End-Desktop-Tower.jpg",
       "category": "Computers",
       "price": 1400,
       "description": "Custom-built desktop tower for gaming and productivity.",
@@ -98,7 +98,7 @@
     {
       "product_id": 7,
       "product_title": "Samsung Galaxy Z",
-      "product_image": "https://i.imghippo.com/files/VlW8460ziY.jpg",
+      "product_image": "https://i.postimg.cc/k4NV14xF/Samsung-Galaxy-Z-Flip-6-a.jpg",
       "category": "Phones",
       "price": 999,
       "description": "Foldable smartphone with cutting-edge technology.",
@@ -114,7 +114,7 @@
     {
       "product_id": 8,
       "product_title": "iPhone 15 Pro",
-      "product_image": "https://i.imghippo.com/files/rApb8586FU.jpg",
+      "product_image": "https://i.postimg.cc/4NydtwF1/Apple-i-Phone-15-Pro-natural-Yoast-image-packshot-review.jpg",
       "category": "Phones",
       "price": 1299,
       "description": "Premium smartphone with titanium body and A17 chip.",
@@ -130,7 +130,7 @@
     {
       "product_id": 9,
       "product_title": "Smart Watch Ultra X",
-      "product_image": "https://i.imghippo.com/files/lMNS8237KqI.jpg",
+      "product_image": "https://i.postimg.cc/0Q6vjHN6/02-jpeg-550x550.jpg",
       "category": "Smart Watches",
       "price": 499,
       "description": "Rugged smart watch with advanced health tracking.",
@@ -146,7 +146,7 @@
     {
       "product_id": 10,
       "product_title": "Fitness Tracker Pro",
-      "product_image": "https://i.imghippo.com/files/YYSH5686cIo.jpg",
+      "product_image": "https://i.postimg.cc/hGLxwpnd/snap-fitness-watch.jpg",
       "category": "Smart Watches",
       "price": 199,
       "description": "Lightweight fitness tracker with heart rate monitoring.",
@@ -162,7 +162,7 @@
     {
         "product_id": 11,
         "product_title": "Fast Charge Wall Adapter",
-        "product_image": "https://i.imghippo.com/files/XAcX1889FAg.jpg",
+        "product_image": "https://i.postimg.cc/wvbBbm1N/fastcharge.jpg",
         "category": "Chargers",
         "price": 59,
         "description": "High-speed wall charger with USB-C and Power Delivery.",
@@ -178,7 +178,7 @@
       {
         "product_id": 12,
         "product_title": "Wireless Charging Pad",
-        "product_image": "https://i.imghippo.com/files/ySo1403XqA.jpeg",
+        "product_image": "https://i.postimg.cc/hjQmqRms/wireless-pad.jpg",
         "category": "Chargers",
         "price": 79,
         "description": "Slim and stylish wireless charger with fast charging.",
@@ -194,7 +194,7 @@
       {
         "product_id": 13,
         "product_title": "10,000mAh Power Bank",
-        "product_image": "https://i.imghippo.com/files/LJk6142JUg.jpg",
+        "product_image": "https://i.postimg.cc/W3pDyVSB/71ackuj8-Og-L-AC-UF894-1000-QL80.jpg",
         "category": "Power Banks",
         "price": 89,
         "description": "Compact power bank with dual fast-charging ports.",
@@ -210,7 +210,7 @@
       {
         "product_id": 14,
         "product_title": "20,000mAh Solar Power Bank",
-        "product_image": "https://i.imghippo.com/files/dxcD7709wYk.jpg",
+        "product_image": "https://i.postimg.cc/JhSrNWv3/solar.jpg",
         "category": "Power Banks",
         "price": 119,
         "description": "Solar power bank with high capacity and waterproof design.",

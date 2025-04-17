@@ -44,9 +44,6 @@ const addWish =(id)=>{
     if(storedWish.includes(id)){
         console.log(id,'already exist')
         toast.error('Item already exist!');
-
-
-
     }
     else{
         storedWish.push(id)

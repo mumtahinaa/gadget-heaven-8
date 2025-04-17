@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const SideBars = ({ categories }) => {
   return (
-    <div>
+    
       
-      <div className="w-56 bg-white shadow-lg rounded-2xl p-6">
+      <div className="w-full lg:w-56 bg-white shadow-lg rounded-2xl p-4 md:p-6">
         <ul className="space-y-4">
           {/* All Product Link */}
           <li>
@@ -35,7 +35,7 @@ const SideBars = ({ categories }) => {
           ))}
         </ul>
       </div>
-    </div>
+    
   );
 };
 
