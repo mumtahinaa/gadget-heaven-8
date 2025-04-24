@@ -5,7 +5,7 @@ GadgetHaven is a sleek e-commerce platform designed for gadget enthusiasts. It a
 ---
 
 ## Live Website
-[**Visit GadgetHaven**](https://gadget-8.netlify.app/)  
+[**Visit GadgetHaven**](https://heaven-gadget-8.netlify.app/)  
 
 
 ---
